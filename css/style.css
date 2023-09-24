@@ -41,7 +41,9 @@ h1,h2,h3,h4,h5,h6{font-size:inherit;font-weight: 400;}
   font-family: "Mooli-Regular";
   src: url("../fonts/Mooli-Regular.ttf");
 }
-
+.header{
+	background-color: #3d8be0;
+}
 .header-element-first,.header-element-two{
 	display: inline-block;
 	width: 49%;	
@@ -51,9 +53,60 @@ h1,h2,h3,h4,h5,h6{font-size:inherit;font-weight: 400;}
 	padding:20px;
 	padding-top: 25px;
 }
+.header-element-link{
+	color: #000;
+}
 .container{
-	background: url('../img/background-container.jpeg');
+	background: url('../img/background.jpg');
 	background-size: cover;
 	width: 100%;
-	height: 70%;
+	height: 90% ;
+}
+.container-text{
+	display: inline-block;
+	width: 100%;
+	text-align: center;
+	padding-top: 30%;
+	font-size: 24px;
+	color: #fff;
+}
+
+.foto{
+	font-family: "Mooli-Regular", sans-serif;
+	width: 100%;
+	height: 500px;
+}
+.foto-text{
+	display: inline-block;
+	width: 100%;
+	text-align: center;
+	padding-top: 30px;
+	font-size: 18px;
+}
+.foto-text-link{
+	display: inline-block;
+	width: 100%;
+	text-align: center;
+	padding-top: 20px;
+	font-size: 18px;	
+}
+.foto-container-text{
+	height: 25%;
+}
+.foto-container-first{
+	display: inline-block;
+	text-align: center;
+	width: 45%;
+	margin-left: 3%;
+}
+.gurskaya{
+	border-radius: 10px;
+	width: 100%;
+	height: 50%;
+}
+.foto-name-text{
+	font-size: 14px;	
+	text-align: center;
+	width: 100%;
+	padding-top: 2.5%;
 }
