@@ -41,6 +41,18 @@ h1,h2,h3,h4,h5,h6{font-size:inherit;font-weight: 400;}
   font-family: "Mooli-Regular";
   src: url("../fonts/Mooli-Regular.ttf");
 }
+@media (prefers-recuded-motion: no-preference){
+
+	:root{
+		scroll-behavior: smooth;
+	}
+
+}
+
+body{
+	font-family: "Mooli-Regular", sans-serif;
+	scroll-behavior: smooth;
+}
 .header{
 	background-color: #3d8be0;
 }
@@ -49,12 +61,12 @@ h1,h2,h3,h4,h5,h6{font-size:inherit;font-weight: 400;}
 	width: 49%;	
 	text-align: center;
 	font-family: Mooli-Regular;
-	font-size: 18px;
+	font-size: 20px;
 	padding:20px;
 	padding-top: 25px;
 }
 .header-element-link{
-	color: #000;
+	color: #fff;
 }
 .container{
 	background: url('../img/background.jpg');
@@ -72,7 +84,6 @@ h1,h2,h3,h4,h5,h6{font-size:inherit;font-weight: 400;}
 }
 
 .foto{
-	font-family: "Mooli-Regular", sans-serif;
 	width: 100%;
 	height: 500px;
 }
@@ -98,6 +109,7 @@ h1,h2,h3,h4,h5,h6{font-size:inherit;font-weight: 400;}
 	text-align: center;
 	width: 45%;
 	margin-left: 3%;
+	margin-bottom: 4%;
 }
 .gurskaya{
 	border-radius: 10px;
