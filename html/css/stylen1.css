@@ -42,7 +42,7 @@ h1,h2,h3,h4,h5,h6{font-size:inherit;font-weight: 400;}
 body{
 	font-family: "Mooli-Regular", sans-serif;
 	scroll-behavior: smooth;
-	background-color: #c9eff5;
+	background-color: #dcf7f7;
 }
 .header{
 	width: 100%;
@@ -63,7 +63,7 @@ body{
 	display: inline-block;
 	width: 50%;
 	margin-left: 25%;
-	margin-top: 15%;
+	margin-top: 8%;
 }
 .gurskaya{
 	border-radius: 20px;
